@@ -1,0 +1,33 @@
+{
+  "name": "werewolf-village-generator",
+  "description": "(pending)",
+  "version": "0.0.1",
+  "main": "./node-irc-bot.js",
+  "author": {
+    "name": "Christopher Beley",
+    "email": "chris.beley@gmail.com"
+  },
+  "keywords": [],
+  "licenses": {
+    "type": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YOUR_LOGIN/werewolf-village-generator.git"
+  },
+  "bugs": {
+    "web": "http://github.com/YOUR_LOGIN/werewolf-village-generator/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-mocha": "~0.4.1",
+    "grunt-notify": "~0.2.15",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-release": "~0.6.0",
+    "expect.js": "~0.2.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}

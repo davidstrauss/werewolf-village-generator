@@ -1,0 +1,26 @@
+{
+  "Villager": {
+    "description": "Find the werewolves and eliminate them.",
+    "team": "Village",
+    "Value": 1,
+    "nightActive": false,
+    "extraDeaths": 0,
+    "availableCards": 20
+  },
+  "Werewolf": {
+    "description": "Each night, wake with the other Werewolves and choose a player to eliminate.",
+    "team": "Werewolf",
+    "Value": -6,
+    "nightActive": true,
+    "extraDeaths": 0,
+    "availableCards": 10
+  },
+  "Seer": {
+    "description": "Each night choose a player to learn if he or she is a Villager or a Werewolf.",
+    "team": "Village",
+    "Value": 7,
+    "nightActive": true,
+    "extraDeaths": 0,
+    "availableCards": 1
+  }
+}
